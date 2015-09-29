@@ -1,0 +1,50 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+<title> Assignment 2 </title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src = "assign2.js"></script>
+<link rel = "stylesheet" href = "assign2.css">
+
+</head>
+<body>
+
+	<div id="MainContent">
+		
+		<div id = "imageHolder">
+
+			<div id = "outerDiv">
+				<button id="moveleft"><</button> 
+				<button id="moveright">></button> 
+				<div id = "innerDiv">
+				</div>
+			</div>
+			
+			<div id ="mainDisplay">
+			</div>
+
+		</div>
+
+		<div id = "info">
+			<input type = "button" value = "Find Images" id = "findImage" onClick="getImages()" >
+			</br></br>
+
+			<p>Tags</p>
+			</br>
+			<input type="text" id = "tag">
+			
+			
+			<div id = "tagDiv">	
+			</div>
+			
+			<input type = "button" value = "+" id = "addTag" onClick = "addTag()";>
+			
+
+		</div>
+		
+
+	</div>	
+</body>
+</html>
